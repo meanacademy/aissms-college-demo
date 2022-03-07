@@ -1,0 +1,66 @@
+Advance JS
+also known as ES6 (echmascript)
+
+1. Variables
+    var vs let vs const
+2. Arrow Functions
+    traditional function:
+    function functionName(){
+
+    }
+
+    Syntax:
+    let functionName = (p)=>{
+
+    }
+
+3. JS Default parameters function
+
+3. Asynchronous functions/Programming
+    1. Callback Function
+    2. Promises
+        it returns always a promised value
+        it is asynchronous
+
+        it has one of three states
+        1. pending
+        2. fullfiled
+        3. rejected
+
+        Syntax:
+                let promise = new Promise(function(resolve, reject){})
+
+                promise constructor takes two callback functions as an argument
+
+                1. resolve - calls when the promise is success
+                2. reject  - calls when the promise is rejected/occours an error
+
+
+
+
+    3. Async - Await 
+        - async function always returns a promise
+        - the keyword 'async' is used before the function name
+
+        Syntax:
+            async function functionName(){
+
+            }    
+    
+        - await waits for the promise to be resolved
+
+5. JSON 
+        JavaScript Object Notation
+6. JS Error Handling 
+
+    syntax:
+
+        try{
+            //block of code for the try
+        }
+        catch(error){
+            //block of code for the catch
+            //handle all the errors here only
+        }
+
+        throw ' custom error'

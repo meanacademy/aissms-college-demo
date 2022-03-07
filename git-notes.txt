@@ -1,0 +1,11 @@
+Basic Commands
+
+1. Clone git repository
+    git clone https://github.com/meanacademy/aissms-college-demo.git
+
+2. check status
+    git status
+
+3. add files to track or stage
+    git add .
+
